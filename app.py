@@ -180,9 +180,9 @@ RF_MODEL_PATH = (
     / "random_forest.pkl"
 )
 
-xgb_model = joblib.load(XGB_MODEL_PATH)
+xgb_model = joblib.load(xgboost.pkl)
 
-rf_model = joblib.load(RF_MODEL_PATH)
+rf_model = joblib.load(random_forest.pkl)
 
 # =========================================================
 # CLEANING
